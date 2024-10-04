@@ -18,3 +18,5 @@ This is a Restaurant Theme Website Template, designed using html and css. It was
 
 ## For Sponsor or Project Enquiry
 1. Email - glord23456@gmail.com
+
+2. this is the link to the website -> http://divinedaniel.hstn.me/
