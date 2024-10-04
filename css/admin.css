@@ -1,0 +1,102 @@
+/*
+
+Author: Divine Daniel;
+Theme: Food Order  Admin;
+Version: 1.0;
+
+*/
+
+/* CSS Variables Start */
+:root {
+    --primary_color: #ff4757;
+    --manu_color: #ff6b81;
+    --primary_text_color: #fff; 
+    --main_content_bg: #f1f2f6; 
+    --btn_primary: #1e90ff;
+    --btn_primary_hover: #3742fa;
+    --btn_secondary: #14d150ef;
+    --btn_secondary_hover: #13f54b;
+    --btn_danger: #ff6b81;
+    --btn_danger_hover: #ff4757;
+    --dark_color: rgb(0, 0, 0);
+}
+/* CSS Variables Ends */
+
+/* CSS FOR ALL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scrollbar-width: thin !important;
+}
+
+body {
+    scrollbar-width: thin !important;
+    scrollbar-color: red;
+}
+
+/* CSS for menu */
+.menu {
+    border-bottom: 1px solid grey;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--manu_color);
+}
+
+.menu ul li a:hover {
+    color: var(--primary_color);
+}
+
+/* CSS for main content */
+.main_content {
+    background: var(--main_content_bg);
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 20%;
+    background-color: var(--primary_text_color);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS For Manage Admin */
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+/* CSS for footer */
+.footer {
+    background-color: var(--primary_color);
+    color: var(--primary_text_color);
+}
+
+/* CSS For Login */
+.login {
+    border: 1px solid grey;
+    width: 25%;
+    margin: 10% auto;
+    padding: 2%;
+}
